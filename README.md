@@ -8,5 +8,5 @@ You can install the clio_infra package from Github, by typing
   install.packages("devtools")  
   library(devtools)  
   install_github("clio_infra", username = "rlzijdeman")  
-  library(clio_infra)  
+  library(clio.infra)  # NB: use dot, not underscore!
   ?clio_infra # to check the documentation

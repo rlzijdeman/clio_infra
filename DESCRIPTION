@@ -1,0 +1,9 @@
+Package: clio.infra
+Type: Package
+Title: Handle clio-infra datasets
+Version: 0.1
+Date: 2014-05-12
+Author: Richard L. Zijdeman
+Maintainer: Richard L. Zijdeman <richard.zijdeman@iisg.nl>
+Description: Handle clio-infra datasets
+License: GPL-3

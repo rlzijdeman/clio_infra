@@ -1,0 +1,4 @@
+importFrom(data.table, data.table)
+importFrom(reshape, melt)
+importFrom(xlsx, read.xlsx)
+export(read.clio)

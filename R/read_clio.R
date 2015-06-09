@@ -9,7 +9,7 @@ library(ggplot2)
 # in case of shape = "long", you can provide the name of the value variable
 read.clio <- function(file, shape = "wide", value = NA){
   clio.raw <- read.xlsx(file,
-                        sheetName = "Sheet1",
+                        sheetIndex = 1,
                         startRow  = 3,
                         encoding  = "UTF-8")
   names(clio.raw) <- tolower(names(clio.raw))
